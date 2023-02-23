@@ -1,0 +1,25 @@
+{
+  "name": "next-azure-static-scr-subfolder",
+  "version": "1.0.0",
+  "description": "next-azure-static-scr-subfolder",
+  "scripts": {
+    "lint": "npm run lint -w=subfolder",
+    "dev": "npm run dev -w=subfolder",
+    "build": "npm run build -w=subfolder",
+    "start": "npm run start -w=subfolder"
+  },
+  "keywords": [],
+  "author": "Bertrand Riviere",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bertrand-riviere/next-azure-static-scr-subfolder"
+  },
+  "homepage": "https://github.com/bertrand-riviere/next-azure-static-scr-subfolder",
+  "workspaces": [
+    "subfolder"
+  ],
+  "engines": {
+    "node": "16.x"
+  }
+}
